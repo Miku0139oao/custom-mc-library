@@ -1,6 +1,6 @@
 package net
 
-import pk "github.com/rain931215/custom-mc-library"
+import pk "github.com/rain931215/custom-mc-library/net/packet"
 
 type Writer interface {
 	WritePacket(p pk.Packet) error
